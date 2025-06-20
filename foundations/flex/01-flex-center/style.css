@@ -4,8 +4,8 @@
   width: 400px;
   height: 300px;
   display: flex;
-  justify-content: center; /* Centers items horizontally */
-  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally JCVA*/
+  align-items: center; /* Centers items vertically JCVA*/
 }
 
 .box {

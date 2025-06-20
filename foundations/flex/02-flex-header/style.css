@@ -1,6 +1,14 @@
-.header  {
+/* This line is for debug only */
+* {
+  /* outline: 2px solid red; */
+}
+
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex; /* enables flexbox layout JCVA*/
+  justify-content: space-between; /* spaces items evenly JCVA */
+  align-items: center; /* centers items vertically JCVA*/
 }
 
 .logo {
@@ -9,6 +17,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
 }
 
 ul {
@@ -22,4 +31,12 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links ul,
+.right-links ul {
+  display: flex; /* enables flexbox layout JCVA*/
+  padding: 0; /* removes default padding from ul JCVA*/
+  margin: 20px;
+  gap: 16px; /* adds space between items JCVA*/
 }
